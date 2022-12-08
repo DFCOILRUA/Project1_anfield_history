@@ -57,13 +57,21 @@ h1, h2{
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Main Image */
+/* Main Image and overlay-text*/
 
 #main-outer{
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
+
+#overlay-text , #overlay-text h2{
+    color: #fff;
+}
+
+
 
 #main-image{
     height: 600px;
@@ -86,4 +94,24 @@ h1, h2{
     to{
         transform: scale(1);
     }
+}
+
+#overlay-text{
+    font-size: 130%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
