@@ -59,8 +59,31 @@ h1, h2{
 
 /* Main Image */
 
+#main-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #main-image{
     height: 600px;
     width: 100%;
     background: url('../images/anfield.jpg') no-repeat center center;
+
+    /* Adds illussion zoom out effect for main image upon page rendering */
+    animation-name: main-out;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+/* Creates illusion of zooming out for main image */
+@keyframes main-out {
+    from{
+        transform: scale(1.4);
+    }
+    to{
+        transform: scale(1);
+    }
 }
