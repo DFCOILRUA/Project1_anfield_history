@@ -24,6 +24,7 @@ h1, h2{
 #logo{
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 
@@ -115,3 +116,29 @@ h1, h2{
 
     position: absolute;
 }
+
+/* milestones */
+
+#milestones{
+    height: 600px;
+}
+
+#left-side{
+    padding-top: 30px;
+    width: 33%;
+    float: left ;
+    background-color: blue;
+}
+
+#right-side{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+#center-part{
+    padding-top: 30px;
+    margin: 0 auto;        /*since 'float center' is not possible we instead use margin 0 auto for the intended effect */
+    background-color: aqua;
+}   
