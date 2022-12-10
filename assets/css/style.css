@@ -126,19 +126,33 @@ h1, h2{
 #left-side{
     padding-top: 30px;
     width: 33%;
-    float: left ;
-    background-color: blue;
+    float: left;
+    background-color: #fff;
 }
 
 #right-side{
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
+    background-color: silver;
 }
 
 #center-part{
     padding-top: 30px;
     margin: 0 auto;        /*since 'float center' is not possible we instead use margin 0 auto for the intended effect */
-    background-color: aqua;
+    background-color: green;
 }   
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0 ;
+}
+
+.left-side-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
