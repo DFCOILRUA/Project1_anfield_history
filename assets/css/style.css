@@ -10,13 +10,14 @@ body{
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    position: relative;
 }
 
 /* Heading elements */
 
 h1, h2{
     font-family: Playfair Display, sans-serif ;
-    text-transform: upppercase;
+    text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
@@ -35,7 +36,8 @@ h1, h2{
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+
+#logo, #menu{
     line-height: 75px;
 }
 
@@ -106,12 +108,12 @@ h1, h2{
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, 0.7);
 
-    bottom: 30px;
+    bottom: 20px;
     right: 150px;
 
     position: absolute;
@@ -142,8 +144,9 @@ h1, h2{
 }   
 
 hr{
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid rgba(241, 109, 107, 0.7);   /*add colour consistency with overlay image above*/
     width: 100%;
+    height: 4px;
     margin: 5px 0 ;
 }
 
@@ -198,4 +201,125 @@ hr{
     max-height: 100%;
     max-width: 100%;
     opacity: 0.1;
+}
+
+
+
+    /* Sign Up Form */
+
+    .form-section {
+        /* clear: right; */
+        margin: auto;
+        /* background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg"); */
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        width: 50%;
+    }
+
+
+    .signup-form{
+        /* margin: 150px 50% 0 0; */
+        margin: auto;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        /* max-width: 400px; */
+        position: relative;
+        /* left: 10%; */
+        padding: 30px;
+    }
+    
+    .signup-form h2{
+        color: #fafafa;
+        margin-bottom: 20px;    
+    }
+    
+    .text-input{
+        background: #fafafa;
+        color: #fafafa;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
+    
+    .text-input:hover{
+        border-color: #f16c6b;
+    }
+    
+    .join-button{
+        /* margin-top: 20px; */
+        border-radius: 2px;
+        /* padding: 15px 32px; */
+        text-align: center;
+        font-size: 100%;
+        background-color: #f16c6b;
+        color: #fafafa;
+        display: block;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+    
+    .join-button:hover{
+        background-color: #fafafa;
+        color: #f16c6b;
+    }
+
+
+
+
+    /* Section 4:: Resources */
+
+    #resources{
+        background-color: #f16c6b;
+    }
+
+    #resource-links{
+        background-color: red;
+    }
+
+
+
+    /* Footer */
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+/* Media Queries */
+
+/* Targeting large to medium screens sizes of 1207px wide and below */
+@media screen and (max-width: 1207px) {
+    #milestones {
+        width: 65%;
+        height: 1207px;
+        margin: 0 auto;
+    }
 }
