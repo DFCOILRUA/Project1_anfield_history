@@ -53,14 +53,21 @@ h1, h2{
 } 
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgba(228, 19, 15, 0.7);
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgba(228, 19, 15, 0.7);
 }
 
-/* Main Image and overlay-text*/
+
+
+
+
+
+
+
+/* Section 1:: Main Image and overlay-text*/
 
 #main-outer{
     height: 600px;
@@ -119,7 +126,15 @@ h1, h2{
     position: absolute;
 }
 
-/* milestones */
+
+
+
+
+
+
+
+
+/* Section2:: milestones */
 
 #milestones{
     height: 600px;
@@ -144,7 +159,7 @@ h1, h2{
 }   
 
 hr{
-    border-top: 1px solid rgba(241, 109, 107, 0.7);   /*add colour consistency with overlay image above*/
+    border-top: 1px solid rgba(228, 19, 15, 0.7);   /*add colour consistency with overlay image above*/
     width: 100%;
     height: 4px;
     margin: 5px 0 ;
@@ -205,7 +220,17 @@ hr{
 
 
 
-    /* Sign Up Form */
+
+
+
+
+
+
+
+
+
+
+    /* Section3:: Sign Up Form */
 
     .form-section {
         /* clear: right; */
@@ -214,7 +239,7 @@ hr{
         background-size: cover;
         background-position: center;
         height: 500px;
-        width: 50%;
+        width: 30%;
     }
 
 
@@ -222,7 +247,8 @@ hr{
         /* margin: 150px 50% 0 0; */
         margin: auto;
         color: #fff;
-        background-color: rgba(60, 60, 60, 0.6);
+        /* background-color: rgba(60, 60, 60, 0.6); */
+        background-color: rgba(47,79,79, 0.6);
         /* max-width: 400px; */
         position: relative;
         /* left: 10%; */
@@ -231,12 +257,21 @@ hr{
     
     .signup-form h2{
         color: #fafafa;
-        margin-bottom: 20px;    
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 200%;    
+    }
+
+    .signup-form p{
+        color: #fafafa;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 120%;    
     }
     
     .text-input{
         background: #fafafa;
-        color: #fafafa;
+        color: #3a3a3a;
         width: 100%;
         height: 25px;
         margin: 5px 0 20px;
@@ -245,7 +280,7 @@ hr{
     }
     
     .text-input:hover{
-        border-color: #f16c6b;
+        border-color:  rgba(228, 19, 15, 0.7);
     }
     
     .join-button{
@@ -254,7 +289,8 @@ hr{
         /* padding: 15px 32px; */
         text-align: center;
         font-size: 100%;
-        background-color: #f16c6b;
+        /* background-color: #f16c6b; */
+        background-color: rgba(228, 19, 15, 0.7);
         color: #fafafa;
         display: block;
         margin: auto;
@@ -264,8 +300,13 @@ hr{
     
     .join-button:hover{
         background-color: #fafafa;
-        color: #f16c6b;
+        color: rgba(228, 19, 15, 0.7)
     }
+
+
+
+
+
 
 
 
@@ -273,21 +314,56 @@ hr{
     /* Section 4:: Resources */
 
     #resources{
-        background-color: #f16c6b;
+        height: 450px;
+        margin-top: 100px;
+        background-color: rgba(228, 19, 15, 0.7);
     }
 
-    #resource-links{
-        background-color: red;
+    #useful-links{
+        background-color: white;
     }
+
+
+    #useful-links h2{
+        font-family: Playfair Display, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 200%;  
+        letter-spacing: 4px;
+        color: #252525;
+    }
+
+    #useful-links h3{
+        font-family: Roboto, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        /* text-transform: uppercase; */
+        text-align: center;
+        font-size: 120%; 
+        letter-spacing: 4px;
+        color: #252525;
+    }
+
+    #useful-links li{
+        font-family: Roboto, sans-serif;
+        margin-bottom: 30px;
+        text-align: center;
+        letter-spacing: 4px;
+        color: #252525;
+    }
+
+
+
+
 
 
 
     /* Footer */
 
 footer{
-    height: 100%;
+    height: 200px;
     width: 100%;
-    background-color: grey;
+    background-color: rgba(47,79,79, 0.6);
     position: relative;
     bottom: 0;
 }
@@ -306,7 +382,7 @@ footer p {
 }
 
 .social-networks i{
-    font-size: 160%;
+    font-size: 250%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
