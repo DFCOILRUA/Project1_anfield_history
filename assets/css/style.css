@@ -43,7 +43,7 @@ h1, h2{
 
 #menu li{
     float: right;
-    list-style-type: none;     /*get rid of the list bullet points*/
+    list-style-type: none;    
     margin: 30px;
 }
 
@@ -138,6 +138,7 @@ h1, h2{
 
 #milestones{
     height: 600px;
+    margin-bottom: 5px;
 }
 
 #left-side{
@@ -313,14 +314,34 @@ hr{
 
     /* Section 4:: Resources */
 
-    #resources{
+    /* #resources{
         height: 450px;
-        margin-top: 100px;
+        height: 20%;
+        padding: 1%;
+        margin-top: 5px;
         background-color: rgba(228, 19, 15, 0.7);
+    } */
+
+    #shankly-gates{
+        width: 33%;
+        height: 100%;
+        float: left;
+    }
+
+    #shankly-kop{
+        width: 33%;
+        height: 20%;
+        float: right;
     }
 
     #useful-links{
-        background-color: white;
+        /* background-color: white; */
+        background-color: #fafafa;
+        margin-top: 150px;
+        /* margin: 0 auto; */
+        /* width: 70%; */
+        margin-bottom: 50px;
+        padding: 75px 0;
     }
 
 
@@ -350,6 +371,7 @@ hr{
         text-align: center;
         letter-spacing: 4px;
         color: #252525;
+        list-style-type: none;
     }
 
     #useful-links li a{
@@ -370,10 +392,10 @@ hr{
     /* Footer */
 
 footer{
-    height: 200px;
-    width: 100%;
-    background-color: rgba(47,79,79, 0.6);
+    min-height: 50px;
+    /* width: 100%; */
     position: relative;
+    /* margin: 50px 0; */
     bottom: 0;
 }
 
@@ -383,15 +405,15 @@ footer p {
 
 .social-networks{
     text-align: center;
-
 }
+
 
 .social-networks li{
     display: inline;
 }
 
 .social-networks i{
-    font-size: 250%;
+    font-size: 220%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
