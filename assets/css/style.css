@@ -352,6 +352,15 @@ hr{
         color: #252525;
     }
 
+    #useful-links li a{
+        color:  #252525;
+    }
+
+
+    #useful-links li a:hover{
+        color: rgba(228, 19, 15, 0.7);
+    }
+
 
 
 
