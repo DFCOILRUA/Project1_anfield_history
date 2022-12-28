@@ -223,6 +223,7 @@ hr{
 
     .form-section {
         margin: auto;
+        clear: both;
         background-size: cover;
         background-position: center;
         height: 500px;
@@ -293,6 +294,10 @@ hr{
 
     /* Section 4:: Resources */
 
+    #resources{
+        clear: both;
+    }
+
     #shankly-gates{
         width: 33%;
         height: 100%;
@@ -307,6 +312,7 @@ hr{
 
     #useful-links{
         /* background-color: white; */
+        clear: both;
         background-color: #fafafa;
         margin-top: 150px;
         /* margin: 0 auto; */
@@ -390,11 +396,11 @@ footer p {
 
 /* Media Queries */
 
-/* Targeting large to medium screens sizes of 1207px wide and below */
+/* Targeting large to medium screens sizes of 1208px wide and below */
 @media screen and (max-width: 1208px) {
     #milestones {
         width: 65%;
-        height: 1207px;
+        height: 1208px;
         margin: 0 auto;
     }
 
@@ -420,5 +426,46 @@ footer p {
         width: 100%;
         float: left;
         padding: 0;
+    }
+
+
+
+    .form-section {
+        width: 100%;
+        clear: both;
+        /* height: 100px;
+        padding: 0; */
+        margin-top: 40px;
+        margin-bottom: 20px;
+        min-height: 350px;
+    }
+
+    #resources{
+        width: 100%;
+        clear: both;
+        /* height: 100px; */
+        /* padding: 0; */
+        margin-top: 40px;
+        margin-bottom: 20px;
+        min-height: 350px;
+    }
+
+    #useful-links{
+        /* width: 100%; */
+        clear: both;
+        /* height: 100px; */
+        padding: 0;
+    }
+}
+
+
+/* Targeting medium screens sizes of 940px wide and below */
+@media screen and (max-width: 940px) {
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
