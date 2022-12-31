@@ -16,7 +16,7 @@ body{
 /* Heading elements */
 
 h1, h2{
-    font-family: Playfair Display, sans-serif ;
+    font-family: 'Playfair Display', sans-serif ;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -311,19 +311,16 @@ hr{
     }
 
     #useful-links{
-        /* background-color: white; */
         clear: both;
         background-color: #fafafa;
         margin-top: 150px;
-        /* margin: 0 auto; */
-        /* width: 70%; */
         margin-bottom: 50px;
         padding: 75px 0;
     }
 
 
     #useful-links h2{
-        font-family: Playfair Display, sans-serif;
+        font-family: 'Playfair Display', sans-serif;
         text-transform: uppercase;
         text-align: center;
         font-size: 200%;  
@@ -433,8 +430,6 @@ footer p {
     .form-section {
         width: 100%;
         clear: both;
-        /* height: 100px;
-        padding: 0; */
         margin-top: 40px;
         margin-bottom: 20px;
         min-height: 350px;
@@ -443,17 +438,13 @@ footer p {
     #resources{
         width: 100%;
         clear: both;
-        /* height: 100px; */
-        /* padding: 0; */
         margin-top: 40px;
         margin-bottom: 20px;
         min-height: 350px;
     }
 
     #useful-links{
-        /* width: 100%; */
         clear: both;
-        /* height: 100px; */
         padding: 0;
     }
 }
