@@ -1,108 +1,103 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Anfield Lane
 
-Welcome DFCOILRUA,
+The Anfield Lane website is a simple website for casual football fans who are looking for short consumable items of trivia regarding Anfield, the iconic stadium of Liverpool Football Club.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Anfield Lane provides football fans, particularly of Liverpool FC with an easily accessible landing page that displays instant information about the club and stadium on that day through history.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The website offers an engaging color scheme and simple layout, thus enabling users of all ages to yield valuable information.
 
-## Gitpod Reminders
+Rather than overwhelm site visitors with an  overabundance of information, the design seeks to merely attract sufficient interest to convince the end user to sign up for more detailed blog posts on the history of the club and stadium.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![](RackMultipart20230103-1-xreu58_html_df45fcb6c8914c2c.png)
 
-`python3 -m http.server`
+# Features
 
-A blue button should appear to click: _Make Public_,
+- **Navigation**
+ - Within the uppermost component of the page, the navigation section begins by displaying the site name, Anfield Lane that links to the top of the home page.
+ - Laterally opposite the site name, toward the right hand side are the remaining navigation links, namely: On This Day, Sign Up and Resources which link to different sections of the same page.
+- The navigation menu headings are displayed in Roboto font in contrast to that of the main logo font which is displayed in Playfair Display. This is by design, with the intention being to showcase a contrast between old and new at the very top of the page - thus reflecting the theme of the rest of the website to follow.
+ is in a font that looks like code, and a color that contrasts with the background.
+ - The website name and logo, Anfield Lane was chosen to incorporate the word 'lane' with a view to partially resembling the phrase 'memory lane' - again attempting to add subtle nods to the importance of the past as well as the present day.
 
-Another blue button should appear to click: _Open Browser_.
+ ![](RackMultipart20230103-1-xreu58_html_3274d14359dd3bda.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **The Header**
+- The color scheme chosen for the font of the logo text and navigation list items was dark against a white background with priority being given to accessibility and a simple,clearly visible and coherent first impression of the website
 
-A blue button should appear to click: _Make Public_,
+- **The Main Image**
+- The main image aliased as 'main-outer' in the underlying code displays a vibrant landscape shot of the Anfield Stadium using a zoom out illusion achieved by reversing a similar but opposite keyframe effect used in the **Love Running Project.**
+ The purpose of this is to offer a strong follow up to a very simple header layout whilst capturing the viewers attention and delivering the mission statement of the website simultaneously.
 
-Another blue button should appear to click: _Open Browser_.
+.
+ - This section clearly states that the website delivers key facts about the stadium on that day throughout history.
+ ![](RackMultipart20230103-1-xreu58_html_3e8b71be360882e2.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **The On This Day Section**
+- The On This Day section provides users with daily key events in Anfield stadium history.
+ - This is the only section aside from the main image above that incorporates imagery. In order to avoid diluting the impact of the main image, the choice was made to edit the opacity of the imported image so as to appear as a more subtle watermark as opposed to a louder, noisier center-piece image.
 
-To log into the Heroku toolbelt CLI:
+ ![](RackMultipart20230103-1-xreu58_html_b063062600e9cdfe.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **The Sign Up Form**
+-  The Sign Up section encourages the user to input their contact details in order to enable them to receive updates on historic stadium milestones and upcoming fan events so they can remain informed at regular intervals.
+ - The form collects the user's first and last name as well as their email address.
+ -  Each field requires an input before being able to successfully sign up. Additionally the email field requires the appropriate characteristics of a legitimate email address before the sign me up button will capture their contact information.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![](RackMultipart20230103-1-xreu58_html_2425642a7426ff1d.png)
 
-------
+- **The Resources Section**
+-  The resources section encourages the website user to further explore related material on stadium subject matter through external links provided.
 
-## Release History
+ ![](RackMultipart20230103-1-xreu58_html_841ac88de236be5a.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Testing
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- I tested and can confirm that this page works in different browsers: Chrome, Firefox and Safari.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar in Chrome.
+- I confirmed that the navigation, header, On This Day, Sign Up and Resources text are all readable and easy to understand.
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field and then the submit button works.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Bugs
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Solved Bugs**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- The main issues encountered throughout this project were in the form of the positioning of accompanying images.
+- The difficulties arose when trying to add images on either side of the Sign Up and Resources section, whereby responsiveness became an issue for smaller devices in that under narrower screen lengths it required the user to scroll for longer before arriving at the next meaningful section, thus leading to a more cumbersome user experience.
+ It's important to state that this was less a bug and more of a decision made to remove them in the name of simplicity and accessibility so as to reduce any potentially unnecessary noise.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Validator Testing
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- HTML
+ - No errors were returned when passing through the official W3C validator
+- CSS
+- Only the following error remains in
+ "Imported style sheets are not checked in direct input and file upload modes"
+ I can confirm that there is no observable negative impact on the styling of the website as a result of this error message.
+- Accessibility
+ - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ![](RackMultipart20230103-1-xreu58_html_1f853c17fb71b686.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Unfixed Bugs
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- No unfixed bugs
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# Deployment
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+ - In the GitHub repository, navigate to the Settings tab
+ - From the source section drop-down menu, select the Main Branch
+ - Once the main branch has been selected, the page provided the link to the completed website.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ The live link can be found here - Coding Club
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Content
 
-------
+- The code to make the social media links was taken from the CI Love Running Project
 
-## FAQ about the uptime script
+Media
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- The image in the main-outer section was taken from ([https://www.emaratalyoum.com/polopoly\_fs/1.1502385.1623765520!/image/image.jpg](https://www.emaratalyoum.com/polopoly_fs/1.1502385.1623765520!/image/image.jpg))
+- The image in the main-outer section was taken from ([https://theguideliverpooldo.ams3.digitaloceanspaces.com/2022/05/lfc-crest-standoriginal.jpg](https://theguideliverpooldo.ams3.digitaloceanspaces.com/2022/05/lfc-crest-standoriginal.jpg))
